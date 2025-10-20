@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extensao TT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container-pai">
+      <header class="cabecalho">
+        <img src="./icons/Logo_original.png" alt="logo" class="logo" />
+        <h1><strong>TRANSFORME textos</strong></h1>
+      </header>
+
+      <input
+        type="text"
+        id="input-text"
+        class="input-text"
+        placeholder="Digite o texto aqui"
+        maxlength="500"
+        required
+      />
+
+      <div class="container-button">
+        <button type="button" class="btn" id="btnMaiuscula">MAIÚSCULA</button>
+        <button type="button" class="btn" id="btnMinuscula">minúscula</button>
+        <button type="button" class="btn" id="btnTitulo">Titulo</button>
+        <button type="button" class="btn" id="btnLimpar">Limpar</button>
+        <button type="button" class="btn" id="btnInverter">Inverter</button>
+      </div>
+
+      <textarea
+        name="result"
+        id="result"
+        class="result"
+        placeholder="Resultado"
+        readonly
+      ></textarea>
+
+      <footer class="footer">
+        <p>Para mais opções, visite:</p>
+        <a href="https://nicollyalmeida.com.br" target="_blank"
+          >nicollyalmeida.com.br</a
+        >
+      </footer>
+    </div>
+  </body>
+</html>
